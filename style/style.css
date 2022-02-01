@@ -1,12 +1,12 @@
 
 
 img {
-  width: 130px;
+  width: 250px;
   border-radius: 50px;
  align-items: center;
   border-style: double;
-  border-color: rgb(67, 134, 197);
-  border-width: 10px;
+  border-color: black;
+  border-width: 5px;
   flex: 1;
 
 }
@@ -42,16 +42,16 @@ h2 {
 }
 
 p{
-  color: rgba(230, 67, 67, 0.836);
+  color: gray;
+  font-weight: bold;
 }
-
 h1{
-font-family: 'Oooh Baby', cursive;
+  font-family: 'Varela Round', sans-serif;
 text-align: center;
 font-size: 30px;
-color: rgb(179, 155, 52);
+color:rgb(9, 59, 78);
 flex: 2;
-text-shadow: 2px 2px 8px darkgrey;
+
 
 }
 
@@ -86,11 +86,28 @@ a:visited{
 }
 
 header:hover {
-  background-color: rgb(113, 180, 206);
+  background-color: white;
   margin: 0;
+  border-radius: 60%;
 }
 
 nav:hover{
-  background-color: rgb(113, 180, 206);
+  background-color: white;
   margin: 0;
+  border-radius: 60%;
 }
+
+/*animation */
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+
+
+
+
