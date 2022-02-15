@@ -63,7 +63,7 @@ nav h2{
 .box {
   background-color: rgb(9, 59, 78);
   width: 600px;
-  height: 90px;
+  height: 120px;
   color: aliceblue;
   border-radius: 10px;
 }
@@ -97,16 +97,9 @@ nav:hover{
   border-radius: 60%;
 }
 
-/*animation */
-@keyframes tipsy {
-  0 {
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) rotate(360deg);
-  }
+.fa-github{
+  font-size: 1.1rem;
 }
-
 
 
 
